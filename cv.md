@@ -1,5 +1,3 @@
-# rsschool-cv
-
 # Piotr Trehubovich
 
 ## Junior Frontend Developer
