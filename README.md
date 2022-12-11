@@ -1,1 +1,1 @@
-https://github.com/PiotrTrehubovich/rsschool-cv/blob/gh-pages/cv.md
+https://PiotrTrehubovich.github.io/rsschool-cv/cv

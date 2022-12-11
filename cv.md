@@ -1,6 +1,6 @@
-# Piotr Trehubovich
+# rsschool-cv
 
-===
+# Piotr Trehubovich
 
 ## Junior Frontend Developer
 
