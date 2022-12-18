@@ -1,14 +1,237 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>RS School CV</title>
-  <meta name="description" content="RS School CV">
-  <meta name="author" content="PiotrTrehubovich">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piotr Trehubovich</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/icon_PiotrTrehubovich.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <meta name="description" content="Piotr Trehubovich CV" />
+    <meta name="author" content="PiotrTrehubovich" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__container">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#about" title="About me">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#skills" title="My skills">Skills</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#codeExample" title="Code example">Code example</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#experience" title="Experience">Experience</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#courses" title="Courses">Courses</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#languages" title="Languages">Languages</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#contacts" title="Contacts">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__content">
+            <div class="header__photo">
+              <img
+                src="/assets/img/photo_PiotrTrehubovich.jpg"
+                alt="Piotr Trehubovich"
+                class="header__image"
+              />
+            </div>
+            <div class="header__info">
+              <h1 class="main-header header__main-header">Piotr Trehubovich</h1>
+              <h2 class="semi-header header__semi-header">
+                Junior Frontend Developer
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="container">
+        <div class="main-content__container">
+          <section class="about" id="about">
+            <h2 class="semi-header">About me</h2>
+            <p class="about__info">
+              Hi, my name is Piotr. I am 26 years old. Starting last year, I
+              decided to change my career to a Front-end engineer. Since that
+              time, I have received theoretical and practical knowledge in such
+              fields as HTML, CSS, SCSS, JavaScript, Figma, React and etc., and
+              continue to develop my knowledge on a daily basis. I know the
+              following languages: English (B2), German (B2), Polish (A2),
+              Russian/Belarussian (Native). Also, I was involved in a couple of
+              StartUp projects, which gives me a good foundation as a
+              Junior/trainee Frontend engineer. I am sure, that my ability to
+              learn and to gain new skills will lead me through this path of
+              becoming a proficient Frontend Developer.
+            </p>
+          </section>
+          <section class="skills" id="skills">
+            <h3 class="semi-header">My skills</h3>
+            <div class="skills__container">
+              <h3 class="skills-header">Hard skills</h3>
+              <ul class="list skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">
+                  CSS/SCSS (SASS, Bootstrap, BEM methodology)
+                </li>
+                <li class="skills__item">
+                  Javascript (Fundamentals,Functional Programming, OOP,
+                  Asynchronous JavaScript, ES6+,DOM)
+                </li>
+                <li class="skills__item">React</li>
+                <li class="skills__item">
+                  Version control: Git (GitHub, GitLab)
+                </li>
+                <li class="skills__item">Editors (VSCode, IntelliJ Idea)</li>
+                <li class="skills__item">Figma (for web development)</li>
+              </ul>
+              <h3 class="skills-header">Soft skills</h3>
+              <ul class="list skills__list">
+                <li class="skills__item">Proactivity</li>
+                <li class="skills__item">Multitasking</li>
+                <li class="skills__item">Critical thinking</li>
+                <li class="skills__item">Independence</li>
+                <li class="skills__item">Teamwork</li>
+              </ul>
+            </div>
+          </section>
+          <section class="code-example" id="codeExample">
+            <h2 class="semi-header">Code example</h2>
+            <p class="code__info">
+              <b>Task:</b> To square every digit of a number and concatenate
+              them.
+            </p>
+            <p class="code__info">
+              <b>Example:</b> squareDigits(92); // Should return 814
+            </p>
+            <div class="code">
+              <pre> 
+                <code>
+                  function squareDigits(num){
+                    return Number(num
+                        .toString()
+                        .split("")
+                        .map((i) => Math.pow(i, 2))
+                        .join(""));
+                  }
+                </code>
+              </pre>
+            </div>
+          </section>
+          <section class="experience" id="experience">
+            <h2 class="semi-header">My experience</h2>
+            <ul class="list experience__list">
+              <li class="experience__item">
+                <a href="https://github.com/PiotrTrehubovich/ai-comment-bot"
+                  >AI Bot landing page</a
+                >
+              </li>
+              <li class="experience__item">
+                <a href="https://automobi.app/cars">Car selling website</a>
+              </li>
+            </ul>
+          </section>
+          <section class="courses" id="courses">
+            <h2 class="semi-header">My courses</h2>
+            <ul class="list courses__list">
+              <li class="courses__item">
+                <a href="http://ude.my/UC-770761bf-d5d8-4e85-be9b-cc571484d104">
+                  Udemy Javascript course
+                </a>
+              </li>
+              <li class="courses__item">
+                <a
+                  href="https://www.linkedin.com/learning/certificates/a9d3ade8ce0a61c0e96ee2757b3ee7f581637ca1e123cc2e113d7befa36d6571"
+                >
+                  LikedIn Javascript code challenges
+                </a>
+              </li>
+              <li class="courses__item">
+                RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+              </li>
+            </ul>
+          </section>
+          <section class="languages" id="languages">
+            <h2 class="semi-header">Language skills</h2>
+            <ul class="list lang__list">
+              <li class="lang__item">English (B2)</li>
+              <li class="lang__item">German (B2)</li>
+              <li class="lang__item">Polish (A2)</li>
+              <li class="lang__item">Russian/Belarussian (native)</li>
+            </ul>
+          </section>
+          <section class="contact" id="contacts">
+            <h2 class="semi-header">Contact information</h2>
+            <ul class="list contacts__list">
+              <li class="contacts__item">E-mail: petertregubovich@gmail.com</li>
+              <li class="contacts__item">Phone number: +4851064528</li>
+              <li class="contacts__item">
+                <a
+                  href="https://www.linkedin.com/in/piotr-trehubovich-16a699173/"
+                >
+                  LikedIn page
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a href="https://github.com/PiotrTrehubovich"> Git Hub </a>
+              </li>
+              <li class="contacts__item">
+                <a href="https://www.codewars.com/users/Piotr%20Trehubovich">
+                  Codewars page
+                </a>
+              </li>
+              <li class="contacts__item">Location: Warsaw, Poland</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <a href="https://rs.school/js/">
+            <img
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="RS school courses"
+              height="30"
+            />
+          </a>
+          <p class="footer__info">&#169; 2022-2023 by Piotr Trehubovich</p>
+          <a href="https://github.com/PiotrTrehubovich">
+            <img
+              src="/assets/img/github-mark-white.png"
+              alt="GitHub page"
+              height="30"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
